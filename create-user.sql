@@ -1,5 +1,5 @@
 -- Create custom login for lxh
-CREATE LOGIN lxh WITH PASSWORD = 'lxh991130', CHECK_POLICY = OFF;
+CREATE LOGIN lxh WITH PASSWORD = 'yourpassword', CHECK_POLICY = OFF;
 GO
 
 -- Create user in master database
@@ -43,3 +43,4 @@ ALTER DATABASE msdb COLLATE Chinese_PRC_CI_AS;
 GO
 
 PRINT 'User lxh created successfully with sysadmin privileges';
+
